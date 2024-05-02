@@ -8,4 +8,4 @@ WHAT DOES THIS BOILERPLATE DO?
 - It defines the port that the server should listen on.
 - It starts the server, listening on the defined port.
 - It defines a basic test route that can be used to verify that the server is working correctly.
-- Go to http://localhost:3000/test to see "Testing... Testing..."
+- Go to http://localhost:3000/test by running node index.js to see "Testing... Testing..."
