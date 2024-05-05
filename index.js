@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
   }
 });
 
-const port = 3000; // locally defined port server should listen to
+const port = process.env.port || 3000; // defined port server listens to
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
